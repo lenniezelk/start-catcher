@@ -39,7 +39,7 @@ export abstract class RiveComponent
     this.stateMachineInstance.advance(elapsedSeconds);
   }
 
-  draw(renderer: WrappedRenderer): void {
+  draw(_renderer: WrappedRenderer): void {
     throw new Error('Method not implemented.');
   }
 
